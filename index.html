@@ -45,7 +45,7 @@
     </header>
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 col-lg-8">
                 <div class="library d-flex justify-content-between p-4">
                     <span class="fs-1">Catalogo Libri</span>
                     <button type="button" class="btn btn-primary">Aggiungi Libro</button>
@@ -55,7 +55,7 @@
                         <tr>
                             <th scope="col">Titolo</th>
                             <th scope="col">Stato</th>
-                            <th scope="col">Azioni</th>
+                            <th class="text-center" scope="col">Azioni</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -182,58 +182,56 @@
                     </tbody>
                 </table>
             </div>
-        </div>
-    </div>
 
-    <div class="container">
-        <div class="col-12">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                    Todo
+            <div class="col-12 col-lg-4">
+                <div class="card mt-3">
+                    <div class="card-header">
+                        Todo
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td><i class="bi bi-app text-secondary"></i> Chiamare la segreteria</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-app text-secondary"></i> Mandare avvisi prestiti scaduti</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="bi bi-app text-secondary"></i> Ordinare nuovi libri</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                        <table class="table table-bordered">
-                            <tbody>
-                                <tr>
-                                    <td><i class="bi bi-app text-secondary"></i> Chiamare la segreteria</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="bi bi-app text-secondary"></i> Mandare avvisi prestiti scaduti</td>
-                                </tr>
-                                <tr>
-                                    <td><i class="bi bi-app text-secondary"></i> Ordinare nuovi libri</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </li>
-                </ul>
+
+
+                <div class="card mt-3">
+                    <div class="card-header">
+                        Todo
+                    </div>
+                    <table class="table p-6">
+                        <tbody>
+                            <tr>
+                                <td>Come aggiungere un nuovo libro?</td>
+                                <td><i class="bi bi-chevron-down"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Come posso accedere all'anagrafica utenti?</td>
+                                <td><i class="bi bi-chevron-down"></i></td>
+                            </tr>
+                            <tr>
+                                <td>Posso usare dashboard da mobile?</td>
+                                <td><i class="bi bi-chevron-down"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="col-12">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                    Todo
-                </div>
-                <table class="table p-6">
-                    <tbody>
-                        <tr>
-                            <td>Come aggiungere un nuovo libro?</td>
-                        </tr>
-                        <tr>
-                            <td>Come posso accedere all'anagrafica utenti?</td>
-                        </tr>
-                        <tr>
-                            <td>Posso usare dashboard da mobile?</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
